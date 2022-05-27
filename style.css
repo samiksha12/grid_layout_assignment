@@ -1,0 +1,27 @@
+.first_layout{
+    display: grid;
+    
+    width: 100%;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "a_link img";
+}
+
+.second_layout{
+    display: grid;
+    
+    width: 100%;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "a_link img";
+}
+.a_link{
+    grid-area: a_link;
+}
+.img{
+    grid-area: img;
+    width: 200px;
+    height: 200px;
+}
